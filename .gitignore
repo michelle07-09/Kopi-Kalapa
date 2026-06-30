@@ -1,12 +1,13 @@
 .agents/
 
-server.out.log/
-server.err.log/
+server.out.log
+server.err.log
 
-data/catalog.json/
-data/store.json/
+/data/catalog.json
+/data/store.json
 
-package.json/
-package-lock.json/
+package.json
+package-lock.json
 
-html/*
+html/
+.dist/

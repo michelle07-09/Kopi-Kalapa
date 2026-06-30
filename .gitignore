@@ -5,3 +5,8 @@ server.err.log/
 
 data/catalog.json/
 data/store.json/
+
+package.json/
+package-lock.json/
+
+html/*

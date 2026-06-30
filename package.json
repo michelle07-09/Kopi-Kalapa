@@ -1,0 +1,17 @@
+{
+  "name": "kopi-kalapa-integrated-site",
+  "version": "1.0.0",
+  "description": "Frontend and backend website for Kopi Kalapa Coffee Roasters.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "coffee",
+    "frontend",
+    "backend"
+  ],
+  "author": "",
+  "license": "MIT"
+}

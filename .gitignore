@@ -1,0 +1,7 @@
+.agents/
+
+server.out.log/
+server.err.log/
+
+data/catalog.json/
+data/store.json/

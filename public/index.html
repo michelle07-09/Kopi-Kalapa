@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kopi Kalapa - Coffee Roasters Bandung</title>
+    <meta name="description" content="Kopi Kalapa coffee roastery website with integrated frontend and backend.">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" data-link>Kopi Kalapa</a>
+      <button class="nav-toggle" type="button" aria-label="Buka menu" data-nav-toggle>Menu</button>
+      <nav class="main-nav" data-nav>
+        <a href="/shop" data-link>Shop</a>
+        <a href="/story" data-link>Our Story</a>
+        <a href="/subscribe" data-link>Subscribe</a>
+        <a href="/wholesale" data-link>Wholesale</a>
+        <a href="/visit" data-link>Visit Us</a>
+      </nav>
+      <button class="cart-button" type="button" data-cart-open>
+        Cart <span data-cart-count>0</span>
+      </button>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+    <aside class="cart-panel" aria-hidden="true" data-cart-panel>
+      <div class="cart-panel__header">
+        <div>
+          <p class="eyebrow">Your Selection</p>
+          <h2>Keranjang</h2>
+        </div>
+        <button class="icon-button" type="button" aria-label="Tutup cart" data-cart-close>X</button>
+      </div>
+      <div class="cart-items" data-cart-items></div>
+      <form class="checkout-form" data-checkout-form>
+        <label>
+          Nama
+          <input name="name" type="text" placeholder="Nama penerima" required>
+        </label>
+        <label>
+          Email
+          <input name="email" type="email" placeholder="email@contoh.com" required>
+        </label>
+        <button class="button button--primary" type="submit">Checkout</button>
+      </form>
+      <button class="button button--ghost" type="button" data-cart-clear>Kosongkan Cart</button>
+    </aside>
+    <div class="overlay" data-overlay></div>
+
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+
+    <footer class="site-footer">
+      <div>
+        <h2>Kopi Kalapa</h2>
+        <p>Artisanal beans, rooted in West Java. Roasted in Bandung.</p>
+      </div>
+      <div class="footer-links">
+        <a href="/shop" data-link>Shop</a>
+        <a href="/subscribe" data-link>Subscription</a>
+        <a href="/wholesale" data-link>Wholesale</a>
+        <a href="/visit" data-link>Visit Us</a>
+      </div>
+    </footer>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

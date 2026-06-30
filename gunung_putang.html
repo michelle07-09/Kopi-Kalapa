@@ -1,0 +1,392 @@
+<!DOCTYPE html><html class="light" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Gunung Puntang - Washed Process | Kopi Kalapa</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-container": "#607b67",
+                        "secondary-container": "#e6e2dc",
+                        "on-secondary-fixed": "#1c1c18",
+                        "inverse-surface": "#3f2c20",
+                        "on-secondary-fixed-variant": "#484743",
+                        "secondary": "#605e5a",
+                        "on-primary-container": "#fffbff",
+                        "on-primary-fixed-variant": "#7d2c13",
+                        "surface-bright": "#fff8f5",
+                        "inverse-on-surface": "#ffede4",
+                        "surface-variant": "#fbddca",
+                        "surface": "#fff8f5",
+                        "on-tertiary-container": "#f6fff5",
+                        "primary-container": "#b8583c",
+                        "error": "#ba1a1a",
+                        "primary-fixed-dim": "#ffb5a0",
+                        "outline": "#89726c",
+                        "on-surface": "#28180d",
+                        "tertiary-fixed-dim": "#b1ceb7",
+                        "surface-container-low": "#fff1ea",
+                        "surface-tint": "#9c4328",
+                        "surface-container-high": "#ffe3d2",
+                        "surface-container": "#ffeade",
+                        "on-secondary": "#ffffff",
+                        "on-primary-fixed": "#3b0a00",
+                        "on-primary": "#ffffff",
+                        "tertiary": "#48624f",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-fixed": "#e6e2dc",
+                        "on-tertiary-fixed": "#072012",
+                        "primary-fixed": "#ffdbd1",
+                        "on-secondary-container": "#666460",
+                        "surface-dim": "#f2d4c2",
+                        "tertiary-fixed": "#ccead2",
+                        "secondary-fixed-dim": "#c9c6c1",
+                        "error-container": "#ffdad6",
+                        "surface-container-highest": "#fbddca",
+                        "on-surface-variant": "#56423d",
+                        "outline-variant": "#dcc1b9",
+                        "on-tertiary-fixed-variant": "#334c3b",
+                        "on-background": "#28180d",
+                        "on-error-container": "#93000a",
+                        "inverse-primary": "#ffb5a0",
+                        "primary": "#994126",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "background": "#fff8f5"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "stack-sm": "16px",
+                        "base": "8px",
+                        "stack-lg": "80px",
+                        "margin-mobile": "20px",
+                        "container-max": "1280px",
+                        "stack-md": "32px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Playfair Display"],
+                        "body-md": ["Inter"],
+                        "headline-md": ["Playfair Display"],
+                        "body-lg": ["Inter"],
+                        "label-caps": ["Inter"],
+                        "headline-sm": ["Playfair Display"],
+                        "display-lg-mobile": ["Playfair Display"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "label-caps": ["12px", { "lineHeight": "1.5", "letterSpacing": "0.1em", "fontWeight": "600" }],
+                        "headline-sm": ["24px", { "lineHeight": "1.4", "fontWeight": "600" }],
+                        "display-lg-mobile": ["36px", { "lineHeight": "1.2", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .texture-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 100;
+            opacity: 0.03;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+        
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md text-body-md antialiased relative min-h-screen pt-24">
+<div class="texture-overlay"></div>
+<!-- TopNavBar -->
+<nav class="bg-surface/90 dark:bg-surface-dim/90 backdrop-blur-md fixed top-0 w-full z-50 border-b border-primary/10 flat no shadows">
+<div class="flex justify-between items-center px-margin-desktop py-base max-w-container-max mx-auto md:flex hidden">
+<!-- Navigation Links -->
+<div class="flex gap-gutter">
+<a class="font-body-md text-body-md text-primary dark:text-inverse-primary border-b-2 border-primary pb-1 hover:opacity-80 transition-opacity duration-300" href="#">Shop</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-secondary-fixed-variant hover:text-primary hover:opacity-80 transition-opacity duration-300" href="#">Our Story</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-secondary-fixed-variant hover:text-primary hover:opacity-80 transition-opacity duration-300" href="#">Wholesale</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-on-secondary-fixed-variant hover:text-primary hover:opacity-80 transition-opacity duration-300" href="#">Visit Us</a>
+</div>
+<!-- Brand Logo -->
+<a class="font-headline-md text-headline-md font-bold tracking-tight text-primary dark:text-inverse-primary absolute left-1/2 -translate-x-1/2" href="#">
+                Kopi Kalapa
+            </a>
+<!-- Trailing Icons -->
+<div class="flex gap-stack-sm">
+<button class="text-primary dark:text-inverse-primary scale-95 transition-transform duration-200 hover:opacity-80">
+<span class="material-symbols-outlined">shopping_cart</span>
+</button>
+<button class="text-primary dark:text-inverse-primary scale-95 transition-transform duration-200 hover:opacity-80">
+<span class="material-symbols-outlined">person</span>
+</button>
+</div>
+</div>
+</nav>
+<main class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pb-stack-lg">
+<!-- Main Product Section -->
+<section class="grid grid-cols-1 md:grid-cols-12 gap-gutter mt-stack-md mb-stack-lg">
+<!-- Product Image Container -->
+<div class="md:col-span-7 rounded-xl overflow-hidden bg-surface-container relative">
+<div class="absolute inset-0 bg-primary/5 z-10 mix-blend-multiply rounded-xl"></div>
+<img class="w-full h-full object-cover rounded-xl" data-alt="A beautifully designed artisanal bag of specialty coffee beans named 'Gunung Puntang' resting on a rustic wooden table in a warm, natural light setting. The bag features an elegant, minimalist label with terracotta and deep brown accents, reflecting a high-end specialty coffee brand. The background is softly blurred, showing subtle hints of coffee roasting equipment, emphasizing the artisanal, slow-living aesthetic of a specialty coffee roaster." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeEwQuhHmNigOpTx1XTtm0VpYW8zy6m6XPg_zhccr3UgGHubUD7_V9T6QnLK-fPjmA9VO7E6Trbth-b_ekSL3dAJdQKSmbUsCCYxHo-Lu42SLZmXVR1UZRgK3jQorHx-2kmTTP4CIin9lPQh91oGRziBFMsQG8lah4-oR3TDW2-hxjQ7r_U9HsZzp55R4OhfAewET5oO44mbmptuguaS2HUDmMtJ9ZtCT37-UYBFf_N6xVFirv5uD2WbZulhhv7kSg-C97p49-dlU" style="min-height: 600px;">
+</div>
+<!-- Product Details & Actions -->
+<div class="md:col-span-5 flex flex-col justify-center">
+<div class="mb-stack-sm">
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-background mb-base">Gunung Puntang - Washed Process</h1>
+<p class="font-headline-sm text-headline-sm text-primary mb-stack-md">Rp 125.000</p>
+</div>
+<!-- Tasting Notes -->
+<div class="mb-stack-md">
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest mb-base">Tasting Notes</p>
+<div class="flex flex-wrap gap-base">
+<span class="inline-flex items-center gap-1 px-3 py-1 bg-surface-container-high rounded-full border border-outline-variant/30 text-on-surface font-label-caps text-label-caps">
+<span class="material-symbols-outlined text-sm">local_florist</span>
+                            Frangipani
+                        </span>
+<span class="inline-flex items-center gap-1 px-3 py-1 bg-surface-container-high rounded-full border border-outline-variant/30 text-on-surface font-label-caps text-label-caps">
+<span class="material-symbols-outlined text-sm">hive</span>
+                            Honey
+                        </span>
+<span class="inline-flex items-center gap-1 px-3 py-1 bg-surface-container-high rounded-full border border-outline-variant/30 text-on-surface font-label-caps text-label-caps">
+<span class="material-symbols-outlined text-sm">admin</span>
+                            Citrus
+                        </span>
+</div>
+</div>
+<!-- Options -->
+<div class="grid grid-cols-2 gap-stack-sm mb-stack-md">
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface-variant mb-2" for="grind">Grind</label>
+<select class="w-full bg-surface-container-lowest border-b border-outline-variant text-on-surface py-2 focus:ring-0 focus:border-primary font-body-md text-body-md bg-transparent appearance-none rounded-none cursor-pointer" id="grind">
+<option>Whole Bean</option>
+<option>Filter</option>
+<option>Espresso</option>
+</select>
+</div>
+<div>
+<label class="block font-label-caps text-label-caps text-on-surface-variant mb-2" for="weight">Weight</label>
+<select class="w-full bg-surface-container-lowest border-b border-outline-variant text-on-surface py-2 focus:ring-0 focus:border-primary font-body-md text-body-md bg-transparent appearance-none rounded-none cursor-pointer" id="weight">
+<option>250g</option>
+<option>500g</option>
+<option>1kg</option>
+</select>
+</div>
+</div>
+<!-- Subscription Toggle -->
+<div class="flex items-center gap-3 mb-stack-md bg-surface-container-low p-4 rounded-lg border border-outline-variant/50">
+<input class="w-5 h-5 text-primary border-outline-variant rounded focus:ring-primary focus:ring-2 bg-surface-container-lowest cursor-pointer" id="subscribe" type="checkbox">
+<label class="font-body-md text-body-md text-on-surface cursor-pointer flex-1" for="subscribe">
+                        Subscribe &amp; Save 10%
+                        <span class="block text-sm text-on-surface-variant mt-1">Delivered fresh every 2 weeks. Cancel anytime.</span>
+</label>
+</div>
+<!-- CTA -->
+<button class="w-full bg-primary text-on-primary py-4 rounded-lg font-label-caps text-label-caps uppercase tracking-widest hover:bg-primary/90 transition-colors duration-300 shadow-sm">
+                    Add to Cart
+                </button>
+</div>
+</section><section class="mt-stack-lg pt-stack-lg border-t border-outline-variant/30">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Review Summary -->
+<div class="md:col-span-4">
+<h2 class="font-headline-md text-headline-md text-on-background mb-stack-sm">Customer Reviews</h2>
+<div class="flex items-center gap-3 mb-base">
+<div class="flex text-primary">
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star_half</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-background">4.8</span>
+<span class="text-on-surface-variant">/ 5</span>
+</div>
+<p class="text-on-surface-variant mb-stack-md">Based on 124 reviews</p>
+<!-- Rating Breakdown -->
+<div class="flex flex-col gap-2 mb-stack-md">
+<div class="flex items-center gap-3">
+<span class="text-sm w-4">5</span>
+<div class="flex-1 h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[85%]"></div>
+</div>
+<span class="text-sm text-on-surface-variant w-8">85%</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="text-sm w-4">4</span>
+<div class="flex-1 h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[10%]"></div>
+</div>
+<span class="text-sm text-on-surface-variant w-8">10%</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="text-sm w-4">3</span>
+<div class="flex-1 h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[3%]"></div>
+</div>
+<span class="text-sm text-on-surface-variant w-8">3%</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="text-sm w-4">2</span>
+<div class="flex-1 h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[1%]"></div>
+</div>
+<span class="text-sm text-on-surface-variant w-8">1%</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="text-sm w-4">1</span>
+<div class="flex-1 h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[1%]"></div>
+</div>
+<span class="text-sm text-on-surface-variant w-8">1%</span>
+</div>
+</div>
+<button class="w-full border border-primary text-primary py-3 rounded-lg font-label-caps text-label-caps uppercase tracking-widest hover:bg-primary/5 transition-colors duration-300">
+                Write a Review
+            </button>
+</div>
+<!-- Review List -->
+<div class="md:col-span-8 flex flex-col gap-stack-md">
+<!-- Review 1 -->
+<div class="pb-stack-sm border-b border-outline-variant/30">
+<div class="flex justify-between items-start mb-2">
+<div>
+<div class="flex text-primary mb-1">
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+</div>
+<h3 class="font-bold text-on-background">Exceptional Clarity</h3>
+</div>
+<span class="text-sm text-on-surface-variant">Oct 12, 2023</span>
+</div>
+<div class="flex items-center gap-2 mb-2">
+<span class="font-bold text-sm">Aditya R.</span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 bg-tertiary/10 text-tertiary rounded text-[10px] font-label-caps uppercase tracking-wider">
+<span class="material-symbols-outlined text-[12px]">verified</span>
+                        Verified Purchase
+                    </span>
+</div>
+<p class="text-on-surface-variant">The washed process really brings out the floral notes. It's incredibly clean and bright. Perfect for my morning V60 ritual. Highly recommended for those who enjoy light, tea-like coffees.</p>
+</div>
+<!-- Review 2 -->
+<div class="pb-stack-sm border-b border-outline-variant/30">
+<div class="flex justify-between items-start mb-2">
+<div>
+<div class="flex text-primary mb-1">
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+</div>
+<h3 class="font-bold text-on-background">Sweet and Balanced</h3>
+</div>
+<span class="text-sm text-on-surface-variant">Sep 28, 2023</span>
+</div>
+<div class="flex items-center gap-2 mb-2">
+<span class="font-bold text-sm">Siti W.</span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 bg-tertiary/10 text-tertiary rounded text-[10px] font-label-caps uppercase tracking-wider">
+<span class="material-symbols-outlined text-[12px]">verified</span>
+                        Verified Purchase
+                    </span>
+</div>
+<p class="text-on-surface-variant">The honey sweetness is very prominent. It's a very forgiving bean to brew. Even when my technique isn't perfect, it still tastes amazing. Will definitely buy again.</p>
+</div>
+</div>
+</div>
+</section><section class="mt-stack-lg pt-stack-lg border-t border-outline-variant/30">
+<div class="max-w-3xl">
+<h2 class="font-headline-md text-headline-md text-on-background mb-stack-md">Frequently Asked Questions</h2>
+<div class="flex flex-col">
+<!-- FAQ Item 1 -->
+<div class="border-b border-outline-variant/30 py-4 group cursor-pointer"><div class="flex justify-between items-center mb-2"><h3 class="font-bold text-on-background group-hover:text-primary transition-colors">When is my coffee roasted?</h3><span class="material-symbols-outlined text-on-surface-variant">expand_more</span></div><p class="text-on-surface-variant text-body-md">We roast in small, artisanal batches every Tuesday and Thursday at our Bandung roastery. Your beans are shipped within 24-48 hours of roasting to ensure they arrive at peak flavor.</p></div>
+<!-- FAQ Item 2 -->
+<div class="border-b border-outline-variant/30 py-4 group cursor-pointer"><div class="flex justify-between items-center mb-2"><h3 class="font-bold text-on-background group-hover:text-primary transition-colors">Which grind size is right for me?</h3><span class="material-symbols-outlined text-on-surface-variant">expand_more</span></div><p class="text-on-surface-variant text-body-md">For maximum freshness, we recommend Whole Bean. If you prefer pre-ground, choose 'Fine' for Espresso, 'Medium' for V60/Aeropress, or 'Coarse' for French Press and Cold Brew.</p></div>
+<!-- FAQ Item 3 -->
+<div class="border-b border-outline-variant/30 py-4 group cursor-pointer"><div class="flex justify-between items-center mb-2"><h3 class="font-bold text-on-background group-hover:text-primary transition-colors">Do you offer international shipping?</h3><span class="material-symbols-outlined text-on-surface-variant">expand_more</span></div><p class="text-on-surface-variant text-body-md">Currently, we ship within Indonesia (Java, Bali, and Sumatra). We are actively working on expanding our logistics to share West Javanese coffee with the global community soon.</p></div>
+<!-- FAQ Item 4 -->
+<div class="border-b border-outline-variant/30 py-4 group cursor-pointer"><div class="flex justify-between items-center mb-2"><h3 class="font-bold text-on-background group-hover:text-primary transition-colors">Can I pause or skip a delivery?</h3><span class="material-symbols-outlined text-on-surface-variant">expand_more</span></div><p class="text-on-surface-variant text-body-md">Absolutely. You have full control through your account dashboard to pause, skip, or cancel your subscription at any time. No strings attached, just great coffee.</p></div>
+</div>
+</div>
+</section><section class="mt-stack-lg pt-stack-lg border-t border-outline-variant/30">
+<div class="mb-stack-md">
+<h2 class="font-headline-md text-headline-md text-on-background mb-base">How to Brew the Perfect Cup</h2>
+<p class="text-on-surface-variant max-w-3xl">We recommend these three methods to bring out the bright acidity and floral notes of the Gunung Puntang beans.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- V60 Card -->
+<div class="flex flex-col bg-surface-container-low rounded-xl overflow-hidden border border-outline-variant/30"><div class="aspect-video overflow-hidden"><img alt="V60 Pour Over" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida/AP1WRLtKu7Of267JD4DM6ch6U9Bkz69abtUuUZozPU1dAdHyPkXcwC8SGVs-knhETedVYfRXAyLVmUt7OFFfKOkMzxx8wKMNQhaHr0LhqAMZMU_wULFeTfk1_GqkH-HK6XMXyJjwb3Zz7d0uCQnsHL1JmI9hM-1nq2ArSmihgeCsExou1FI8CyyGRWZ_qU-x64ku5Z1dPg-hSjmCOOmKN5m2yC8hAfJmT8CNJc6QKNUCyA7IIukd2fJnGbhwWuM"></div><div class="p-4 flex flex-col flex-1"><h3 class="font-headline-sm text-headline-sm text-on-background mb-2">The V60 Pour Over</h3><div class="text-on-surface-variant text-sm mb-stack-sm flex-1"><p class="mb-2">Brings out the delicate floral and citrus notes. Clean and bright.</p><ul class="space-y-2 mt-3 border-t border-outline-variant/30 pt-3"><li class="flex gap-2"><span class="font-bold text-primary">1.</span><span class="">Bloom. Pour 50g of water and wait 30 seconds.</span></li><li class="flex gap-2"><span class="font-bold text-primary">2.</span><span class="">Continuous Pour. Gently pour in circular motions up to 250g.</span></li><li class="flex gap-2"><span class="font-bold text-primary">3.</span><span class="">Draw Down. Let it finish dripping (approx. 2:30 - 3:00 mins total).</span></li></ul></div><a class="inline-flex items-center text-primary font-label-caps text-label-caps uppercase tracking-wider hover:opacity-80 transition-opacity" href="#">View Guide<span class="material-symbols-outlined text-sm ml-1">arrow_forward</span></a></div></div>
+<!-- French Press Card -->
+<div class="flex flex-col bg-surface-container-low rounded-xl overflow-hidden border border-outline-variant/30">
+<div class="aspect-video overflow-hidden">
+<img alt="French Press" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBttiHpsrMpCsS-pkiS8G1g1aPufWytYlbKzL93KDYusyD5YZaC0awK0e58iJvRiTsmHt4-1zAmjdiGuihBC2aGzRsskncpZQAKVMxB55Mt1TYWwrqQ_evBNn_4k84YcLz8DZB1QWjppJ1S5mULI1YRQqn-7WOxWo_jsL2c2fUM90ZeqKVwc2WwvZ_wo-hAOJQrfj3IKloulMhJguLEC7vO_k6cm876mA83xtsF2ex4aencUelX0UevPgNvmQF3Y9ZzmCRC-F5XQ8s">
+</div>
+<div class="p-4 flex flex-col flex-1"><h3 class="font-headline-sm text-headline-sm text-on-background mb-2">The French Press</h3><div class="text-on-surface-variant text-sm mb-stack-sm flex-1"><p class="mb-2">Highlights the body and sweetness. Full and rich.</p><ul class="space-y-2 mt-3 border-t border-outline-variant/30 pt-3"><li class="flex gap-2"><span class="font-bold text-primary">1.</span><span class="">Coarse Grind. Add 30g of coarsely ground coffee to the carafe.</span></li><li class="flex gap-2"><span class="font-bold text-primary">2.</span><span class="">Bloom &amp; Steep. Pour 500g of hot water. Stir gently and let sit for 4 minutes.</span></li><li class="flex gap-2"><span class="font-bold text-primary">3.</span><span class="">Press &amp; Pour. Slowly press the plunger down and serve immediately to avoid over-extraction.</span></li></ul></div><a class="inline-flex items-center text-primary font-label-caps text-label-caps uppercase tracking-wider hover:opacity-80 transition-opacity" href="#">View Guide<span class="material-symbols-outlined text-sm ml-1">arrow_forward</span></a></div>
+</div>
+<!-- AeroPress Card -->
+<div class="flex flex-col bg-surface-container-low rounded-xl overflow-hidden border border-outline-variant/30">
+<div class="aspect-video overflow-hidden">
+<img alt="AeroPress" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpfy7_ssnXw9JT-fntOD138WMNu-vbmxKky9-p8g7d1RIHD1oeLJkzQ-y07Hk58y7fQIS_5JZd7swc_fVQi12scieNTrYUcJe8evqLdtMNl6uZ8fKsr0TVGINQhEmbamrq8k2lZz9FsGznqgOeFDz1xvX3CidrvgAF1yvcg_TUH5owyxQrlLKSGUMg7kP-fyzRSlQ3q7rBSLu8YH6YGQmlZdbG7DKUCjbf36pVgokhPQGuQpGoUpEPWvYM5ZJ34HFbrvivPfW5B7E">
+</div>
+<div class="p-4 flex flex-col flex-1">
+<h3 class="font-headline-sm text-headline-sm text-on-background mb-2">The AeroPress</h3>
+<div class="text-on-surface-variant text-sm mb-stack-sm flex-1"><p class="mb-2">Balanced and versatile. Perfect for a quick, concentrated cup.</p><ul class="space-y-2 mt-3 border-t border-outline-variant/30 pt-3"><li class="flex gap-2"><span class="font-bold text-primary">1.</span><span class="">Prepare: Add 15g of medium-fine coffee and 200g of hot water. Stir gently.</span></li><li class="flex gap-2"><span class="font-bold text-primary">2.</span><span class="">Steep: Place the plunger and wait for 2 minutes to allow full extraction.</span></li><li class="flex gap-2"><span class="font-bold text-primary">3.</span><span class="">Press: Press down slowly with consistent pressure for 30 seconds.</span></li></ul></div>
+<a class="inline-flex items-center text-primary font-label-caps text-label-caps uppercase tracking-wider hover:opacity-80 transition-opacity" href="#">
+                    View Guide
+                    <span class="material-symbols-outlined text-sm ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-secondary-container dark:bg-secondary bg-secondary-container/50 flat no shadows mt-stack-lg">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop py-stack-lg max-w-container-max mx-auto">
+<!-- Brand & Copyright -->
+<div class="md:col-span-2 flex flex-col justify-between">
+<span class="font-headline-sm text-headline-sm text-primary mb-stack-sm">Kopi Kalapa</span>
+<p class="font-body-md text-body-md text-on-secondary-container/80 mt-auto">
+                    © 2024 Kopi Kalapa Coffee Roasters. Bandung, Indonesia.
+                </p>
+</div>
+<!-- Links -->
+<div class="flex flex-col gap-base">
+<a class="font-body-md text-body-md text-on-secondary-container/80 hover:text-primary transition-colors opacity-90 hover:opacity-100" href="#">Subscription</a>
+<a class="font-body-md text-body-md text-on-secondary-container/80 hover:text-primary transition-colors opacity-90 hover:opacity-100" href="#">Support</a>
+<a class="font-body-md text-body-md text-on-secondary-container/80 hover:text-primary transition-colors opacity-90 hover:opacity-100" href="#">Instagram</a>
+<a class="font-body-md text-body-md text-on-secondary-container/80 hover:text-primary transition-colors opacity-90 hover:opacity-100" href="#">Shipping Policy</a>
+</div>
+</div>
+</footer>
+
+
+
+
+
+
+</body></html>
